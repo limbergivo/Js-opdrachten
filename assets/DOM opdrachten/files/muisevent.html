@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>muisevent</title>
+    <link rel="stylesheet" href="/muisevent.css">
+</head>
+<body>
+<h2>MOUSE EVENT</h2>
+    <div class="hoverMe" onmouseenter="hideDiv(this)"  onmouseout="showDiv(this)"></div>
+    <div class="hoverMe" onmouseenter="hideDiv(this)"  onmouseout="showDiv(this)""></div>
+    <div class="hoverMe" onmouseenter="hideDiv(this)"  onmouseout="showDiv(this)"></div>
+    <div id="reset" onclick="resetDiv()">reset</div>
+
+
+    <div id="x-axis" onmousemove="coordsX(event)"> x-axis</div>
+    <div id="y-axis" onmousemove="coordsY(event)">y-axis</div>
+
+    <H2>KEYBOARDS EVENTS</H2>
+    
+    <div id="character">Duw op een nummer</div>
+
+    <h2>Oefening 2</h2>
+    
+    <div id="up">up</div>
+    <div id="left">left</div>
+    <div id="right">right</div>
+    <div id="down">down</div>
+
+
+    <script src="/muisevent.js"></script>
+</body>
+</html>

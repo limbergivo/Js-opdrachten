@@ -1,0 +1,48 @@
+.hoverMe{
+    opacity: 1;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    background-color:red;
+    margin:  2px;
+}
+
+#reset{
+    height: 100px;
+    width: 200px;
+    color: azure;
+    background-color: black;
+    margin:  2px;
+}
+
+#x-axis{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    margin: 2px;
+    color: white;
+
+}
+
+#y-axis{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color:green;
+    margin: 2px;
+}
+
+#character{
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    margin: 2px;
+}
+
+.highlight{
+    opacity: 1;
+    background-color: greenyellow;
+}
+
