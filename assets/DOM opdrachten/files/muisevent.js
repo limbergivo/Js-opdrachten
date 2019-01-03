@@ -72,7 +72,6 @@
          .backgroundColor = color;
  }
 
-
  //Ex 2
 
  // gebruik maken van https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
@@ -80,8 +79,7 @@
  let downDiv = document.getElementById("down");  // variabel aanmaken met naam upDiv -> arrow DOWN
  let leftDiv = document.getElementById("left"); // variabel aanmaken met naam upDiv -> arrow LEFT
  let rightDiv = document.getElementById("right");  //// variabel aanmaken met naam upDiv -> arrow RIGHT
-
-
+console.log(upDiv);
 
  window.addEventListener('keydown', event => {
      switch (event.keyCode) {
@@ -120,3 +118,6 @@
              break;
      }
  });
+
+
+ document.get
